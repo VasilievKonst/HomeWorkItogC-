@@ -42,8 +42,11 @@ void PrintAr(string[] NewAR, string text)
     {
         Console.Write($"{NewAR[j]} ");
     }
+    Console.WriteLine();
 }
+
 FullAr(array);
 createAR(array, NewAr);
+PrintAr(array, "Заданный вами основной массив выглядит так");
 PrintAr(NewAr, "Исходя из условий поставленной задачи, получаем следующие данные");
 
